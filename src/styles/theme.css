@@ -1,0 +1,38 @@
+/* Design tokens: change these to re-theme the whole site. */
+:root {
+  --color-ink: #263d32;
+  --color-ink-soft: #3b5a48;
+  --color-ink-deep: #172820;
+  --color-accent: #bd714d;
+  --color-accent-dark: #9c5739;
+  --color-accent-text: #8e4e34;
+  --color-accent-tint: #f7e9e1;
+  --color-bg: #f6f2ec;
+  --color-surface: #fffdfa;
+  --color-text: #342f29;
+  --color-muted: #71685f;
+  --color-border: #e8ded3;
+  --color-danger: #b3261e;
+  --color-success: #416b52;
+
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-display: "Newsreader", Georgia, serif;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: clamp(1.4rem, 2.2vw, 1.75rem);
+  --text-2xl: clamp(1.9rem, 3.6vw, 2.6rem);
+  --text-hero: clamp(2.4rem, 5.5vw, 4rem);
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4.5rem;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --shadow-card: 0 2px 4px rgba(38, 61, 50, 0.05), 0 14px 32px rgba(38, 61, 50, 0.12);
+  --container: 1160px;
+}
